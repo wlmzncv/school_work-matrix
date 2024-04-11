@@ -42,4 +42,4 @@
 
 当输入0时退出程序，输入字母也会被当作0，会退出程序。
 
-![](images\9-image.png)
+![](images/9-image.png)
