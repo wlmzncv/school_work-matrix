@@ -14,31 +14,31 @@
 
 输入完矩阵后，若A不为空，则会显示它的“状态”，会计算矩阵的秩，并显示能对矩阵进行的分解操作。线性方程组的右端b的维度会随矩阵A的变化而变化，即b的行数始终与A相同，列数始终为1，输入b时无需再设置维度。下图所示为输入b的过程。
 
-![](images\2-image.png)
+![](images/2-image.png)
 
 若矩阵A的行数改变会重新设置b的元素全为0. 可依据提示对A进行各项分解，若分解能得到三角矩阵，则还会自动给出线性方程组的解。下图所示为LU分解的结果。
 
-![](.\images\3-image.png)
+![](images/3-image.png)
 
 类似的，输入4，进行QR分解。由于计算误差的原因，结果有些许不同。
 
-![](.\images\4-image.png)
+![](images/4-image.png)
 
 输入5，进行Householder约简。
 
-![](.\images\5-image.png)
+![](images/5-image.png)
 
 输入6，进行Givens约简。结果应与Householder约简的结果一致。
 
-![](.\images\6-image.png)
+![](images/6-image.png)
 
 输入7，进行URV分解，此处计算产生了溢出，仍需要进行改进。
 
-![](.\images\7-image.png)
+![](images/7-image.png)
 
 输入8，计算矩阵A的行列式，当A不可逆时，行列式为0，A可逆时使用Givens约简计算行列式。根据命令前给出的对A的描述可知道A是否有行列式。
 
-![](.\images\8-image.png)
+![](images/8-image.png)
 
 当输入0时退出程序，输入字母也会被当作0，会退出程序。
 
